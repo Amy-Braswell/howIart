@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "howiart",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authhowiarta7341923",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

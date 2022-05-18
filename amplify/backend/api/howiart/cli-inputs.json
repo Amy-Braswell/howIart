@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "howiart",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/Amy/Desktop/newiArt/howiart/amplify/backend/api/howiart/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authhowiarta7341923"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 7,
+        "apiKeyExpirationDate": "2022-05-09T05:44:04.036Z",
+        "keyDescription": ""
+      }
+    ]
+  }
+}

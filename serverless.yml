@@ -1,0 +1,10 @@
+iArt:
+  component: "@sls-next/serverless-component@3.6.0" 
+  inputs:
+    domain: howiart.com # add your custom domain here
+    subdomain: www.howiart.com
+
+
+
+
+

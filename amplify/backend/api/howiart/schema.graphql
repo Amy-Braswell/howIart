@@ -1,0 +1,72 @@
+
+
+type Gallery @model 
+@auth(rules: [ 
+  { allow: owner },
+  { allow: groups, groups: ["Admin"] },
+])
+{
+  id: ID!
+  name: String!
+  logo: String
+  phone: String
+  streetAddress: String
+  city: String
+  state: String
+  postalCode: String
+  email: String
+  website: String
+  exhibits: [Exhibit] @hasMany(indexName: "byGalleryId", fields: ["id"])
+}
+
+type Exhibit @model
+@auth(rules: [
+  { allow: owner },
+  { allow: groups, groups: ["Admin"] },
+])
+{
+  id: ID!
+  exhibitGalleryId: ID! @index(name: "byGalleryId", sortKeyFields: ["id"])
+  showHero: String
+  showHeroPhone: String
+  title: String
+  media: [String]
+  date: String
+  ups: Int
+  downs: Int
+  startDate: Int
+  endDate: Int
+  artist: [String]
+  curator: [String]
+  showTeaser: String
+  showDescription: String
+  tags: [String!]
+  includedArtworks: [Artwork]
+  status: ExhibitStatus
+  walkthrough: String
+  walkthroughStill: String
+  gallery: Gallery @hasOne
+  artworks: [Artwork] @hasMany(indexName: "byExhibitId", fields: ["id"])
+}
+
+type Artwork @model 
+@auth(rules: [
+  { allow: owner },
+  { allow: groups, groups: ["Admin"] },
+])
+{
+  id: ID!
+  artworkExhibitId: ID! @index(name: "byExhibitId", sortKeyFields: ["id"])
+  artist: String
+  title: String
+  date: String
+  medium: [String]
+  dimensions: String
+  image: String
+  exhibit: Exhibit @hasOne
+}
+
+enum ExhibitStatus {
+  current
+  previous
+}

@@ -1,0 +1,17 @@
+{
+  "name": "xo6xhl8-gl07g0n",
+  "hash": "IN0MjAeJ260LUk/nL4MyEJHEQSsDh3sla8IB2Ov1xkk=",
+  "description": "Default Lambda@Edge for Next CloudFront distribution",
+  "memory": 512,
+  "timeout": 10,
+  "code": "/Users/Amy/Desktop/newiArt/howiart/.serverless_nextjs/default-lambda",
+  "shims": [],
+  "handler": "index.handler",
+  "runtime": "nodejs14.x",
+  "env": {},
+  "role": {
+    "arn": "arn:aws:iam::791385227603:role/xo6xhl8-840uq8t"
+  },
+  "arn": "arn:aws:lambda:us-east-1:791385227603:function:xo6xhl8-gl07g0n",
+  "region": "us-east-1"
+}
