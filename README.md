@@ -1,7 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2> Connectivity </h2>
 
-## Getting Started
+<img width="33%" alt="Screen Shot of Home Page Banner" src="https://user-images.githubusercontent.com/55002971/168963243-ea1a855a-5382-44dc-ad01-a1bb141d02c8.png">
+<img width="33%" alt="Screen Shot of Home Page Features" src="https://user-images.githubusercontent.com/55002971/168963624-d217a772-747d-4838-85e8-1e048575815c.png">
+<img width="33%" alt="Screen Shot of Login Page" src="https://user-images.githubusercontent.com/55002971/168963748-f4a01d5b-75b3-4117-b288-48034ff92b64.png">
+<img width="33%" alt="Screen Shot of Featured Exhibit" src="https://user-images.githubusercontent.com/55002971/168963812-9d102c27-c4be-4ca4-b1e5-2d2064e59a78.png">
+<img width="33%" alt="Screen Shot of Browse Page" src="https://user-images.githubusercontent.com/55002971/168963895-8a6356a3-54b7-44cc-88c9-c1dc5d80fc0f.png">
+<img width="33%" alt="Screen Shot of Virtual Walk Through" src="https://user-images.githubusercontent.com/55002971/168963972-48860a80-b8d2-4616-81fa-abd9320b60ca.png">
 
+ 
+<h3>PROJECT DEMO</h3>
+<p><a href="https://howiart.com" target="blank">Try the App!</a></p>
+
+<h3>DESCRIPTION</h3>
+<p>I dream of a day where it will be as easy to see art as it is to binge-watch tv! 
+
+HowIArt is a Netflix-like user interface where users can browse through a collection of art exhibits from the comfort of their couch using virtual walkthrough technology. 
+
+It is intended for entertainment, education, and to provide a living archive of the art world.
+</p>
+
+
+<h3>INSTALLATION</h3>
+<ol>
+    <li>Clone the repo <a href="https://github.com/Amy-Braswell/howIart.git" target="blank">git clone https://github.com/Amy-Braswell/howIart.git</a></li>
+    <li>Install NPM Packages</li>
+        <p>   • npm install</p>  
+</ol>
+
+<h3>GETTING STARTED</h3>
 First, run the development server:
 
 ```bash
@@ -12,24 +38,47 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<h3>BUILT WITH</h3>
+<ul>
+    <li>React w/ Hooks</li>
+    <li>Redux Thunk</li>
+    <li>Node JS</li>
+    <li>Apollo Server</li>
+    <li>Graph QL</li>
+    <li>Amplify</li>
+    <li><ul>
+        AWS
+        <li>Cloudfront</li>
+        <li>Cognito</li>
+        <li>DynamoDB</li>
+        <li>Lambda</li>
+        <li>S3</li>
+    </ul></li>
+    <li>FETCH</li>
+    <li>RESTful API Design</li>
+    <li>Serverless</li>
+    <li>Styled Components</li>
+</ul>
+
+<h3>CONTACT</h3>
+<p>Amy Braswell  <a href="mailto:braswellamy@mac.com? subject=HowIArt">braswellamy@mac.com</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# howIart
