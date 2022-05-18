@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "See the World.",
+      "subTitle": "Visit galleries in any city from the comfort of your home.",
+      "image": "/images/misc/world-map.jpg",
+      "alt": "World Map",
+      "direction": "row"
+    },
+    {
+      "id": 2,
+      "title": "On the Go.",
+      "subTitle": "Carry the entire art world with you everywhere you go. Imagine what you can see!",
+      "image": "/images/misc/art-world.jpg",
+      "alt": "Watch on mobile",
+      "direction": "row-reverse"
+    },
+    {
+      "id": 3,
+      "title": "On Any Device.",
+      "subTitle": "Visit any gallery show as often as you would like on your phone, tablet, laptop or desktop without any expense.",
+      "image": "/images/misc/any-device.jpg",
+      "alt": "Phone Tablet Desktop",
+      "direction": "row"
+    }
+  ]
+  
