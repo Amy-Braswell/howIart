@@ -4,6 +4,9 @@
 ./src/aws-exports
 ./.serverless_nextjs/regeneration-lambda/index.js
 
+#TO DO LIST
+./src/TODO.js
+
 
 
 
