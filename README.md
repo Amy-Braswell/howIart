@@ -1,10 +1,8 @@
 <h2> Connectivity </h2>
 
-<img width="30%" style="margin-right: 25px;" alt="Screen Shot of Home Page Banner" src="https://user-images.githubusercontent.com/55002971/168963243-ea1a855a-5382-44dc-ad01-a1bb141d02c8.png"><img width="30%" style="margin-right: 25px;" alt="Screen Shot of Home Page Features" src="https://user-images.githubusercontent.com/55002971/168963624-d217a772-747d-4838-85e8-1e048575815c.png"><img width="30%" style="margin-right: 25px;" alt="Screen Shot of Login Page" src="https://user-images.githubusercontent.com/55002971/168963748-f4a01d5b-75b3-4117-b288-48034ff92b64.png">
+<img width="30%" style="margin-right: 25px;" alt="Screen Shot of Home Page Banner" src="https://user-images.githubusercontent.com/55002971/168963243-ea1a855a-5382-44dc-ad01-a1bb141d02c8.png"> <img width="30%" style="margin-right: 25px;" alt="Screen Shot of Home Page Features" src="https://user-images.githubusercontent.com/55002971/168963624-d217a772-747d-4838-85e8-1e048575815c.png"> <img width="30%" style="margin-right: 25px;" alt="Screen Shot of Login Page" src="https://user-images.githubusercontent.com/55002971/168963748-f4a01d5b-75b3-4117-b288-48034ff92b64.png">
 
-<img width="30%" alt="Screen Shot of Featured Exhibit" src="https://user-images.githubusercontent.com/55002971/168963812-9d102c27-c4be-4ca4-b1e5-2d2064e59a78.png">
-<img width="30%" alt="Screen Shot of Browse Page" src="https://user-images.githubusercontent.com/55002971/168963895-8a6356a3-54b7-44cc-88c9-c1dc5d80fc0f.png">
-<img width="30%" alt="Screen Shot of Virtual Walk Through" src="https://user-images.githubusercontent.com/55002971/168963972-48860a80-b8d2-4616-81fa-abd9320b60ca.png">
+<img width="30%" alt="Screen Shot of Featured Exhibit" src="https://user-images.githubusercontent.com/55002971/168963812-9d102c27-c4be-4ca4-b1e5-2d2064e59a78.png"> <img width="30%" alt="Screen Shot of Browse Page" src="https://user-images.githubusercontent.com/55002971/168963895-8a6356a3-54b7-44cc-88c9-c1dc5d80fc0f.png"> <img width="30%" alt="Screen Shot of Virtual Walk Through" src="https://user-images.githubusercontent.com/55002971/168963972-48860a80-b8d2-4616-81fa-abd9320b60ca.png">
 
  
 <h3>PROJECT DEMO</h3>
