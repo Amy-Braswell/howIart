@@ -35,6 +35,18 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+<h3>AMPLIFY COMMANDS</h3>
+To initialize Amplify:
+amplify init
+
+To add AWS Cognito:
+amplify add auth
+
+To add AWS Database:
+amplify add api
+
+To test AWS during development
+
 <h3>BUILT WITH</h3>
 <ul>
     <li>React w/ Hooks</li>

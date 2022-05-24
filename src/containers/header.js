@@ -3,6 +3,7 @@ import { Header } from '../components/index';
 
 import Link from 'next/link'
 
+// This is the logic for the small header that contains the logo and the login button
 
 export function HeaderContainer({ children }) {
   return (

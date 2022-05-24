@@ -11,9 +11,8 @@ import { Card, Header, Loading } from '../components';
 import { FooterContainer } from '../containers/footer';
 import { SignOut } from '../components/reduxFeatures/Redux/actions/user'
 
-// Put back in actual app....
-// import Fuse from 'fuse.js';
 
+// This is most of the logic that you see on the Browse Page
 
 
 export function BrowseContainer({ slides }) {
@@ -42,7 +41,7 @@ export function BrowseContainer({ slides }) {
     setLoading(false)
   }, [slides, category]);
 
-  // Put back in actual app...
+  // Put filter system back in actual app...
   // useEffect(() => {
   //   const fuse = new Fuse(slideRows, { keys: ['data.gallery.name'] });
   //   const results = fuse.search(searchTerm).map(({ item }) => item);

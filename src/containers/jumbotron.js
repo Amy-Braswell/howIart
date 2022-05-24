@@ -2,6 +2,8 @@ import React from 'react';
 import jumboData from '../fixtures/jumbo';
 import { Jumbotron } from '../components/index';
 
+// This is the logic for the features container of the home page
+
 export function JumbotronContainer() {
   return (
     <Jumbotron.Container>

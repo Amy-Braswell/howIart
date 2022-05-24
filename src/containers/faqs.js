@@ -5,7 +5,7 @@ import faqsData from '../fixtures/faqs.json';
 import { useRouter } from 'next/router'
 import { SignUp } from '../components/reduxFeatures/Redux/actions/user'
 
-
+// This is the logic for the FAQ Accordion that you see on the Home Page
 
 export function FaqsContainer() {
 

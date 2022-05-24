@@ -1,6 +1,8 @@
 import React from 'react';
 import Footer from '../components/footer';
 
+//This is the logic for the footer
+
 export function FooterContainer() {
   return (
     <Footer>
