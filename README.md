@@ -45,7 +45,11 @@ amplify add auth
 To add AWS Database:
 amplify add api
 
-To test AWS during development
+To access Database through Amplify Console:
+amplify console api
+
+To Deploy with Serverless:
+serverless deploy
 
 <h3>BUILT WITH</h3>
 <ul>

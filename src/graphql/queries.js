@@ -51,6 +51,7 @@ query currentExhibits {
       startDate
       status
       title
+      walkthrough
       walkthroughStill
     }
   }

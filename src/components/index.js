@@ -8,3 +8,5 @@ export { default as Header } from './header/index';
 export { default as Loading } from './loading/index';
 export { default as Authorization } from './authorization/index';
 export { default as Spinner } from './spinner/index'
+
+// TODO - MOVE REDUX FEATURES OUT OF COMPONENTS AND INTO ITS OWN FOLDER

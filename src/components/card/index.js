@@ -103,8 +103,6 @@ Card.FeatureLogo = function CardFeatureLogo({ ...restProps }) {
 Card.Feature = function CardFeature({ children, category, ...restProps }) {
   const { showFeature, itemFeature, setShowFeature } = useContext(FeatureContext);
 
-  
-
   return showFeature ? (
      <Feature {...restProps} src={itemFeature.walkthroughStill}>
     
@@ -115,7 +113,6 @@ Card.Feature = function CardFeature({ children, category, ...restProps }) {
           <FeatureSubtitle>{itemFeature.artist}</FeatureSubtitle>
           <FeatureSubtitleCaption>{itemFeature.date}</FeatureSubtitleCaption>
           <FeatureText>{itemFeature.showDescription}</FeatureText>
-          <FeatureTitle>COMING SOON</FeatureTitle>
           <FeatureClose onClick={() => setShowFeature(false)}>
             <img src="/images/icons/close.png" alt="Close" />
           </FeatureClose>

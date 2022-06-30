@@ -12,8 +12,11 @@ export function HeaderContainer({ children }) {
           <Link href={`/`}>
             <a><Header.Logo src='../logo.png' alt="iArt" /></a>
           </Link>
-          <Link href={`/login`}>
+          {/* <Link href={`/login`}>
             <a><Header.ButtonLink>Login</Header.ButtonLink></a>
+          </Link> */}
+          <Link href={`/browse`}>
+            <a><Header.ButtonLink>Browse</Header.ButtonLink></a>
           </Link>
         </Header.Frame>
         {children}

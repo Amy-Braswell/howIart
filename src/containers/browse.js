@@ -22,13 +22,13 @@ export function BrowseContainer({ slides }) {
   const [category, setCategory] = useState('exhibits');
   const [loading, setLoading] = useState(true);
   const [slideRows, setSlideRows] = useState([]);
-  const [user, setUser] = useState(null)
+  // const [user, setUser] = useState(null)
   // const [searchTerm, setSearchTerm] = useState('');
 
 
-  useEffect(() => {
-    getUser()
-  }, [])
+  // useEffect(() => {
+  //   getUser()
+  // }, [])
  
   useEffect(() => {
     dispatch(fetchFeaturedExhibit())
@@ -40,6 +40,7 @@ export function BrowseContainer({ slides }) {
     setSlideRows(slides[category])
     setLoading(false)
   }, [slides, category]);
+
 
   // Put filter system back in actual app...
   // useEffect(() => {
@@ -59,25 +60,26 @@ export function BrowseContainer({ slides }) {
   //   }
   // }, [searchTerm]);
 
-  async function getUser() {
-    try {
-      await Auth.currentAuthenticatedUser()
-      .then(user => setUser(user.attributes.nickname))
-    }
-      catch {router.push('/login')}
-  } 
+  // async function getUser() {
+  //   try {
+  //     await Auth.currentAuthenticatedUser()
+  //     .then(user => setUser(user.attributes.nickname))
+  //   }
+  //     catch {router.push('/login')}
+  // } 
   
-  async function handleSignOut(){
-    try {
-      await Auth.signOut()
-      dispatch(SignOut())
-      router.push('/login')
-    } catch (error) {
-      console.log('error signing out: ', error);
-    }
-  }
+  // async function handleSignOut(){
+  //   try {
+  //     await Auth.signOut()
+  //     dispatch(SignOut())
+  //     router.push('/login')
+  //   } catch (error) {
+  //     console.log('error signing out: ', error);
+  //   }
+  // }
 
-  if(featuredExhibit.gallery && user){
+  // if(featuredExhibit.gallery && user){
+  if(featuredExhibit.gallery){
   return(
     <div>
       {loading 
@@ -98,7 +100,7 @@ export function BrowseContainer({ slides }) {
             <Header.Group>
               {/* Put back in actual app... */}
               {/* <Header.Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} /> */}
-              <Header.Profile>
+              {/* <Header.Profile>
                 <FontAwesomeIcon className="white" icon={faUser} />
                 <Header.Dropdown>
                   <Header.Group>
@@ -109,7 +111,7 @@ export function BrowseContainer({ slides }) {
                     <Header.TextLink onClick={handleSignOut}>Logout</Header.TextLink>
                   </Header.Group>
                 </Header.Dropdown>
-              </Header.Profile>
+              </Header.Profile> */}
             </Header.Group>
           </Header.Frame>
 
@@ -148,7 +150,13 @@ export function BrowseContainer({ slides }) {
               </Card.Entities>
               </Card.Row>
               <Card.Feature category={category}>
+                {/* {console.log(item.walkthrough)} */}
                   {/* <Card.GoButton>Go</Card.GoButton> */}
+                  {/* <Link target="blank" href={`/exhibit/[id]`} as={`/exhibit/${item.id}`}> 
+                    <a target="_blank">
+                      <Card.GoButton>Go</Card.GoButton>
+                    </a>
+                  </Link> */}
               </Card.Feature>
             </Card>
           ))}
